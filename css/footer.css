@@ -1,0 +1,227 @@
+section#footer {
+  
+  display: flex;
+  flex-direction: column;
+}
+section#footer div.wrap {
+  border: none;
+}
+section#footer > div {
+  border-top: 1px solid lightgray;
+}
+section#footer div.footertop {
+  
+}
+section#footer div.footertop div.wrap {
+  
+}
+section#footer div.footertop div.wrap ul {
+  
+  display: flex;
+  align-items: center;
+}
+section#footer div.footertop div.wrap ul li {
+  
+  width: calc(100%/8);
+}
+section#footer div.footertop div.wrap ul li a {
+  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  align-items: center;
+  font-size: 15px;
+}
+section#footer div.footertop div.wrap ul li a:hover {
+  text-decoration: underline;
+}
+section#footer div.footermid {
+  
+  padding: 25px 0;
+}
+section#footer div.footermid div.wrap {
+  
+}
+section#footer div.footermid div.wrap > ul {
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+section#footer div.footermid div.wrap > ul > li {
+  
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+section#footer div.footermid div.wrap ul li h2 {
+  
+  font-weight: 700;
+}
+section#footer div.footermid div.wrap ul li p {
+  
+  display: flex;
+  flex-direction: column;
+}
+section#footer div.footermid div.wrap ul li.musinsaedit {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaedit h2 {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaedit p {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaedit p span {
+  
+  color: red;
+}
+section#footer div.footermid div.wrap ul li.musinsastore p span {
+  
+  color: rgb(0, 153, 255);
+}
+section#footer div.footermid div.wrap ul li.musinsaservice {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaservice h2 {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist {
+  
+  display: flex;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li:nth-child(1) {
+  padding-right: 5px;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li:nth-child(2) {
+  position: relative;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li:nth-child(2):before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  border-left: 1px solid lightgray;
+  left: 0;
+  top: calc(50% - 6px);
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li:nth-child(2):after {
+  position: absolute;
+  content: "";
+  height: 12px;
+  border-right: 1px solid lightgray;
+  right: 0;
+  top: calc(50% - 6px);
+}
+section#footer div.footermid div.wrap ul li.musinsaservice ul.servicelist li a {
+  
+  padding: 0 5px;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice p {
+  
+}
+section#footer div.footermid div.wrap ul li.musinsaservice p span {
+  
+  color: gray;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice > a {
+  
+  background-color: lightgray;
+  text-align: center;
+}
+section#footer div.footermid div.wrap ul li.musinsaservice a span {
+  
+  color: rgb(0, 153, 255);
+  padding: 5px;
+}
+section#footer div.footermid div.wrap p.warning {
+  
+  padding: 25px;
+  border: 2px solid;
+  color: red;
+  display: inline-block;
+  font-weight: 700;
+}
+section#footer div.footerbtm {
+  
+  padding: 25px 0;
+}
+section#footer div.footerbtm div.wrap {
+  
+  display: flex;
+}
+section#footer div.footerbtm div.wrap div {
+  
+  width: 50%;
+}
+section#footer div.footerbtm div.wrap div.btmleft {
+  
+  line-height: 1.5;
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+section#footer div.footerbtm div.wrap div.btmleft h2 {
+  
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+section#footer div.footerbtm div.wrap div.btmleft h3 {
+  
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+section#footer div.footerbtm div.wrap div.btmleft p {
+  
+  display: flex;
+  gap: 5px;
+}
+section#footer div.footerbtm div.wrap div.btmleft p a {
+  
+  padding: 0 5px;
+  border: 1px solid lightgray;
+}
+section#footer div.footerbtm div.wrap div.btmright {
+  
+  line-height: 1.5;
+  font-size: 12px;
+  color: gray;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+section#footer div.footerbtm div.wrap div.btmright h2 {
+  
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+section#footer div.footerbtm div.wrap div.btmright p {
+  
+}
+section#footer div.footerbtm div.wrap div.btmright p a {
+  
+  font-weight: 700;
+  padding: 0 5px;
+}
+section#footer div.footerbtm div.wrap div.btmright ul.footersns {
+  
+  display: flex;
+  gap: 25px;
+}
+section#footer div.footerbtm div.wrap div.btmright ul.footersns li {
+  
+}
+section#footer div.footerbtm div.wrap div.btmright ul.footersns li a {
+  
+}
+section#footer div.footerbtm div.wrap div.btmright ul.footersns li a svg {
+  
+}

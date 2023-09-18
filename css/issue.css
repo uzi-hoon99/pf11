@@ -1,0 +1,88 @@
+section#issue {
+  
+}
+section#issue div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section#issue div.wrap div.issuetop {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#issue div.wrap div.issuetop h2 {
+  
+  font-size: 30px;
+  padding-left: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#issue div.wrap div.issuetop a.specialmore {
+  
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+section#issue div.wrap div.issuebtm {
+  
+}
+section#issue div.wrap div.issuebtm ul.issuecont {
+  
+}
+section#issue div.wrap div.issuebtm ul.issuecont li {
+  
+  padding: 25px;
+  box-sizing: border-box;
+}
+section#issue div.wrap div.issuebtm ul.issuecont li:hover {
+  background-color: #eee;
+}
+section#issue div.wrap div.issuebtm ul.issuecont li a {
+  
+  line-height: 2;
+}
+section#issue div.wrap div.issuebtm ul.issuecont li a div.imgwrap {
+  
+}
+section#issue div.wrap div.issuebtm ul.issuecont li a div.imgwrap img {
+  
+  width: 100%;
+}
+section#issue div.wrap div.issuebtm ul.issuecont li a h3 {
+  
+  font-weight: 700;
+  font-size: 20px;
+}
+section#issue div.wrap div.issuebtm ul.issuecont li a p {
+  
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button {
+  background-color: black;
+  opacity: 0.75;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button:hover {
+  opacity: 1;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button.slick-prev {
+  background-image: url(../img/icon/prev.svg);
+  left: 0;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button.slick-prev::before {
+  display: none;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button.slick-next {
+  background-image: url(../img/icon/next.svg);
+  right: 0;
+}
+section#issue div.wrap div.issuebtm ul.issuecont button.slick-next::before {
+  display: none;
+}

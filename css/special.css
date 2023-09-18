@@ -1,0 +1,168 @@
+section#special {
+  
+}
+section#special div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section#special div.wrap div.specialtop {
+  
+}
+section#special div.wrap div.specialtop h2 {
+  
+  font-size: 30px;
+  padding-left: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#special div.wrap div.specialtop div.specialmid {
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+section#special div.wrap div.specialtop div.specialmid ul.speciallist {
+  
+  display: flex;
+}
+section#special div.wrap div.specialtop div.specialmid ul.speciallist li {
+  
+}
+section#special div.wrap div.specialtop div.specialmid ul.speciallist li a {
+  
+  display: block;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+section#special div.wrap div.specialtop div.specialmid ul.speciallist li a.select {
+  
+  color: black !important;
+}
+section#special div.wrap div.specialtop div.specialmid a.specialmore {
+  
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+section#special div.wrap div.specialbtm {
+  
+}
+section#special div.wrap div.specialbtm ul.showcase {
+  
+  display: flex;
+}
+section#special div.wrap div.specialbtm ul.showcase li {
+  
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  padding: 25px;
+}
+section#special div.wrap div.specialbtm ul.showcase li:hover {
+  background-color: #eee;
+}
+section#special div.wrap div.specialbtm ul.showcase li a {
+  
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.imgwrap {
+  
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.imgwrap img {
+  
+  width: 100%;
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.infowrap {
+  
+  line-height: 1.5;
+  padding: 15px 0;
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.infowrap h3 {
+  
+  font-weight: 500;
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.infowrap p.info {
+  
+  font-weight: 700;
+  font-size: 20px;
+}
+section#special div.wrap div.specialbtm ul.showcase li a div.infowrap p.cont {
+  
+  font-size: 14px;
+}
+section#special div.wrap div.specialbtm ul.exclusive {
+  
+}
+section#special div.wrap div.specialbtm ul.exclusive li {
+  
+  padding: 25px;
+  box-sizing: border-box;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a {
+  
+  line-height: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a div.imgwrap {
+  
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a div.imgwrap img {
+  
+  width: 100%;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a h3 {
+  
+  font-weight: 700;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a p.name {
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a p.pay {
+  
+  display: flex;
+  gap: 15px;
+  font-weight: 700;
+}
+section#special div.wrap div.specialbtm ul.exclusive li a p.pay span.sale {
+  
+  display: flex;
+  gap: 15px;
+  font-weight: 700;
+}
+section#special div.wrap div.specialbtm ul.exclusive button {
+  background-color: black;
+  opacity: 0.75;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+}
+section#special div.wrap div.specialbtm ul.exclusive button:hover {
+  opacity: 1;
+}
+section#special div.wrap div.specialbtm ul.exclusive button.slick-prev {
+  background-image: url(../img/icon/prev.svg);
+  left: 0;
+}
+section#special div.wrap div.specialbtm ul.exclusive button.slick-prev::before {
+  display: none;
+}
+section#special div.wrap div.specialbtm ul.exclusive button.slick-next {
+  background-image: url(../img/icon/next.svg);
+  right: 0;
+}
+section#special div.wrap div.specialbtm ul.exclusive button.slick-next::before {
+  display: none;
+}

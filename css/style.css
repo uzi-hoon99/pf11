@@ -1,0 +1,121 @@
+section#style {
+  
+}
+section#style div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 750px;
+}
+section#style div.wrap div.styletop {
+  
+}
+section#style div.wrap div.styletop h2 {
+  
+  font-size: 30px;
+  padding-left: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#style div.wrap div.styletop div.stylemid {
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+section#style div.wrap div.styletop div.stylemid ul.stylelist {
+  
+  display: flex;
+}
+section#style div.wrap div.styletop div.stylemid ul.stylelist li {
+  
+}
+section#style div.wrap div.styletop div.stylemid ul.stylelist li a {
+  
+  display: block;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+section#style div.wrap div.styletop div.stylemid ul.stylelist li a.select {
+  color: black !important;
+}
+section#style div.wrap div.styletop div.stylemid a.stylemore {
+  
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+section#style div.wrap div.stylebtm {
+  
+}
+section#style div.wrap div.stylebtm ul {
+  flex-wrap: wrap;
+  display: flex;
+}
+section#style div.wrap div.stylebtm ul li {
+  
+  width: calc(100% / 5);
+  box-sizing: border-box;
+  padding: 25px;
+}
+section#style div.wrap div.stylebtm ul li:hover {
+  background-color: #eee;
+}
+section#style div.wrap div.stylebtm ul li a {
+  
+}
+section#style div.wrap div.stylebtm ul li a div.imgwrap {
+  
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+section#style div.wrap div.stylebtm ul li a div.imgwrap img {
+  
+  width: 100%;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap {
+  
+  display: flex;
+  /*! align-items: center; */
+  gap: 15px;
+  padding: 15px 0;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap img {
+  
+  width: 35%;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap div.info {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  line-height: 1.5;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap div.info h3 {
+  
+  font-weight: 700;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap div.info p.name {
+  
+  /*! white-space: nowrap; */
+  /*! overflow: hidden; */
+  /*! text-overflow: ellipsis; */
+  font-weight: 500;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap div.info p.pay {
+  
+  display: flex;
+  gap: 15px;
+  font-weight: 700;
+}
+section#style div.wrap div.stylebtm ul li a div.infowrap div.info p.pay span.sale {
+  
+  color: gray;
+  text-decoration: line-through;
+  font-weight: 400;
+}

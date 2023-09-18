@@ -1,0 +1,54 @@
+section#notice {
+  
+}
+section#notice div.wrap {
+  
+  display: flex;
+  border: none;
+}
+section#notice div.wrap div.noticetop {
+  
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+section#notice div.wrap div.noticetop h2 {
+  
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#notice div.wrap div.noticetop a.noticemore {
+  
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 15px 15px 0;
+}
+section#notice div.wrap div.noticebtm {
+  
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+section#notice div.wrap div.noticebtm ul {
+  
+}
+section#notice div.wrap div.noticebtm ul li {
+  
+}
+section#notice div.wrap div.noticebtm ul li a {
+  
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: flex;
+  align-items: end;
+  gap: 15px;
+}
+section#notice div.wrap div.noticebtm ul li a span {
+  color: gray;
+  font-size: 20px
+}

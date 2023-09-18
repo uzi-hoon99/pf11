@@ -1,0 +1,87 @@
+section#magazine {
+  
+}
+section#magazine div.wrap {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+section#magazine div.wrap div.magazinetop {
+  
+}
+section#magazine div.wrap div.magazinetop h2 {
+  
+  font-size: 30px;
+  padding-left: 25px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+section#magazine div.wrap div.magazinetop div.magazinemid {
+  
+  display: flex;
+  justify-content: space-between;
+}
+section#magazine div.wrap div.magazinetop div.magazinemid ul.magazinelist {
+  
+  display: flex;
+}
+section#magazine div.wrap div.magazinetop div.magazinemid ul.magazinelist li {
+  
+}
+section#magazine div.wrap div.magazinetop div.magazinemid ul.magazinelist li a {
+  
+  display: block;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+}
+section#magazine div.wrap div.magazinetop div.magazinemid ul.magazinelist li a.select {
+  color: black;
+}
+section#magazine div.wrap div.magazinetop div.magazinemid a.magazinemore {
+  
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+section#magazine div.wrap div.magazinebtm {
+  
+}
+section#magazine div.wrap div.magazinebtm ul {
+  
+  display: flex;
+}
+section#magazine div.wrap div.magazinebtm ul li {
+  
+  width: calc(100% / 3);
+  padding: 25px;
+  box-sizing: border-box;
+}
+section#magazine div.wrap div.magazinebtm ul li:hover {
+  
+  background-color: #eee;
+}
+section#magazine div.wrap div.magazinebtm ul li a {
+  
+  line-height: 2;
+}
+section#magazine div.wrap div.magazinebtm ul li a div.imgwrap {
+  
+}
+section#magazine div.wrap div.magazinebtm ul li a div.imgwrap img {
+  
+  width: 100%;
+}
+section#magazine div.wrap div.magazinebtm ul li a h3 {
+  
+  font-weight: 700;
+  font-size: 20px;
+}
+section#magazine div.wrap div.magazinebtm ul li a p {
+  
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
