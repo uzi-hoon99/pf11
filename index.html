@@ -26,6 +26,20 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function(){
+            var sidemenutop=$("#sidemenu").offset().top;
+            var ws;
+            $(window).scroll(function(){
+                ws=$(window).scrollTop()
+                if(ws>sidemenutop){
+                    $("#sidemenu").css("top","25px");
+                    $("section#sidemenu ul.categorywrap").css("height","850px");
+                }
+                if(ws<sidemenutop){
+                    $("#sidemenu").css("top","141px");
+                    $("section#sidemenu ul.categorywrap").css("height","750px");
+                }
+            });
+            
             $("header div.headertop div.wrap ul.utilmenu li").hover(
                 function(){
                     $(this).children(".utilinner").show();
