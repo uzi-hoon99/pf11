@@ -1,5 +1,5 @@
-# 프로젝트 명 : 캐논 클론 코딩
-https://uzi-hoon99.github.io/pf6/
+# 프로젝트 명 : 무신사 클론 코딩
+https://uzi-hoon99.github.io/pf11/
 
 ## 기술 스텍
 - HTML
